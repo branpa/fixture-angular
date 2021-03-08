@@ -1,0 +1,22 @@
+input {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#generadorGrupos {
+    border-bottom: groove;
+    padding-bottom: 5px;
+}
+
+#teams {
+    float: right;
+    width: 20%;
+    /* background-color: green; */
+}
+
+#fechas {
+    float: left;
+    width: 75%;
+    border-right: groove;
+    /* background-color: red; */
+}

@@ -1,0 +1,23 @@
+<div id="teams" class="">
+    <div class="row mt-2">
+        <div class="col-xs-3 col-md-12">
+            <div class="form-group">
+                <div class="input-group">
+                    <div class=" col align-self-center">
+                        <h6>Teams</h6>
+                    </div>
+                    <div class="col col-lg-5 align-self-center ">
+                        <button type="button" (click)="borrarEquipo(result)" class=" btn btn-light w-auto">Borrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="equiposList">
+        <div *ngFor="let item of list">
+            <input type="radio" class="btn-check" ngModel="options" value="{{item}}" #BorrarEquipo>
+            <label class="btn btn-outline-primary m-1 " for="btn-check-outlined ">{{item}}</label><br>
+        </div>
+
+    </div>
+</div>
