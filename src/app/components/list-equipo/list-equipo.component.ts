@@ -9,7 +9,7 @@ export class ListEquipoComponent implements OnInit {
 
   @Input() equipoABorrar: string;
 
-  list: any = ["River", "Boca", "Peñarol", "Danubio", "Paprica", "Ia tu sabe"];
+  list: any = ["River", "Boca", "Peñarol", "Danubio"];
 
   selectedTeam : string = "hola";
 
